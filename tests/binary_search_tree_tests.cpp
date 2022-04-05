@@ -193,7 +193,7 @@ TEST_CASE("BinarySearchTree::Contains") {
   }
 }
 
-TEST_CASE("BinarySearchTree::FindMin") {
+TEST_CASE("BinarySearchTree::FindMin")  {
   BinarySearchTree tree;
 
   CHECK_FALSE(tree.FindMin().has_value());
